@@ -1,0 +1,28 @@
+{
+  "name": "react-single-page-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pshn111/React-Single-Page-Application.git"
+  },
+  "keywords": [
+    "single",
+    "page",
+    "application"
+  ],
+  "author": "Shuonan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pshn111/React-Single-Page-Application/issues"
+  },
+  "homepage": "https://github.com/pshn111/React-Single-Page-Application#readme"
+}
