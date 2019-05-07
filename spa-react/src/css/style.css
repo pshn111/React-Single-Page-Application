@@ -46,6 +46,11 @@ nav{
     cursor:pointer;
 }
 
+.nav-menu__link.active {
+    background-color: royalblue;
+    color: #fff;
+}
+
 .logo-link{
     color: #fff;
     text-decoration:none;
@@ -120,4 +125,55 @@ nav{
     justify-content: space-around;
     margin-bottom: 50px;
     width: 100%;
+}
+
+.actor-container {
+    display: inline-block;
+    text-align: center;
+}
+
+.actor-image {
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.actor-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.actor-profile-image {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.back {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgray;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: rgb(149, 216, 238);
+    text-decoration: none;
+}
+
+.actor-profile-image {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+}
+
+.film-image {
+    width: 400px;
+    height: 200px;
+    background-size: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+.film-image:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }

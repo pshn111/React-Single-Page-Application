@@ -1,12 +1,20 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Actress = (props) => (
-    <div className="main-content">
-        <div className="container">
-            <h2>Actress page</h2>
+const Actress = (props) => {
 
+    return (
+
+        <div className="main-content">
+            <div><Link className="back" to="/actresses">back</Link></div>
+
+            <div className="container">
+                <div className="actor-profile-image" style={{ backgroundImage: "url(" + props.image + ")" }}></div>
+                <h2>{props.name}</h2>
+                <p>{props.details}</p>
+            </div>
         </div>
-    </div>
-);
+    );
+};
 
 export default Actress;
